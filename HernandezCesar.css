@@ -1,0 +1,60 @@
+body{
+    color: white;
+    background: black;
+    border: none;
+}
+h1{
+    text-align: center;
+    background: #371e66;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+
+}
+.LIBRO h2{
+    background: green;
+    border-style: double;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.LIBRO{
+    columns: auto;
+}
+.LIBRO div{
+    background: #636060;
+    font-size: 20px;
+    font-weight: 20px;
+    background-size: auto;
+    text-align: center;
+    border-left: auto;
+    gap: 30px;
+    border: 500px;
+}
+
+.NoDisponible h2{
+    background: red;
+    border-style: double;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.NoDisponible div{
+    background: #636060;
+    font-size: 20px;
+    font-weight: 20px;
+    background-size: auto;
+    text-align: center;
+    border-left: auto;
+    gap: 30px;
+}
+
+.LIBRO div:hover{
+    transform: scale(1.05);
+    background: rgb(113, 204, 113);
+}
+.NoDisponible div:hover{
+    transform: scale(1.05);
+    background: rgb(204, 101, 101);
+}
